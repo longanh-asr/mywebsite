@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    /* mac dinh la 16px*/
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Language section */
+.d-flex{
+    display: flex;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
+.a-center {
+    align-items: center;
+}
+#language {
+background-color: #1d75de;
+color: #ffffff;
+padding: 1% 0;
+}
+
+.f-lang{
+    text-decoration: underline;
+}
+
+/* Navigation section */
+#navbar {
+    background-color: #000;
+    padding: 1% 0;
+}
+
+.header__logo--svg {
+    width: 120px;
+}
+
+.sportify_logo{
+    fill: #ffffff;
+}
+
+.nav {}
+
+.nav-item{
+    margin-right: 25px;
+}
+
+.nav-item a{
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.nav-item a:hover{
+    color: #1ed760;
+}
+
+
+/* Main heading section */
+
+#main-heading{
+    background-color: rgb(41, 65, 171);
+    height: 100vh;
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: 45% 0;
+    position: relative;
+}
+
+h1{
+    font-size: 9rem;
+    color: #1ed760;
+    letter-spacing: -9px;
+    text-indent: -1.7em;
+    /* withd: ; */
+}
+
+h2{
+    color: #1ed760;
+    font-size: 1,2rem;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+}
+
+.content {
+    width: 600px;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    padding: 15px 30px;
+    border-radius: 200px;
+    text-transform: uppercase;
+    background-color: #1ed760;
+    color: #2e77d0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main-btn{
+    text-align: center;
+}
+
+/* Footer section  */
+
+#footer{
+    background-color: #000;
+    padding: 7% 0;
+}
+
+.col-lg-3{
+    flex: calc(100%/5);
+}
+
+.col-lg-3 ul li a{
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.col-lg-3 ul li a:hover{
+    color:#1ed760;
+}
+
+.col-lg-3 ul li{
+    margin: 20px 0px;
+}
+
+.ig-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+
+.ig-circle a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tw-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+
+.tw-circle a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+
+.fa-circle a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* .f-item{
+    margin-left: 40px;
+}  */
